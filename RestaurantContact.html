@@ -2,20 +2,28 @@
 <html>
     <head>
         <title>Restaurant Site</title>
-        <h1 style="text-align:center">Shoot the Breeze</h1><hr/>
-        <p><a href="RestaurantHome.html">Home</a>
-        <a href="RestaurantMenu.html">Menu</a>
-        <a href="RestaurantContact.html">Contact Us</a>
-        </p><hr/>
         <style>
             form div label {
                 display:block;
                 float:left;
                 width:300px;
                 }
+            #submit {
+                text-align: center;
+            }
         </style>
+        <link href="restaurantStyles.css"
+                rel="StyleSheet"
+                type="text/css"/>
     </head>
     <body>
+        <header id="header">
+            <h1>Shoot the Breeze</h1><hr/>
+            <p><a href="RestaurantHome.html">Home</a>
+            <a href="RestaurantMenu.html">Menu</a>
+            <a href="RestaurantContact.html">Contact Us</a>
+            </p>
+        </header>
         <form>
             <div><p>
                 <label id="NameLabel" for="Name">Name: </label>
@@ -25,11 +33,11 @@
                 <label id="EmailLabel" for="Email">Email: </label>
                 <input id="Email" name="Email" type="text"/></p>
             </div>
-            <div>
+            <div><p>
                 <label id="PhoneLabel" for="Phone">Phone: </label>
-                <input id="Phone" name="Phone" type="text"/>
+                <input id="Phone" name="Phone" type="text"/></p>
             </div>
-            <div>
+            <div><p>
                 <label id="ReasonforInquiryLabel" for="ReasonForInquiry">Reason for Inquiry: </label>
                 <select name="Reason">
                     <option value="Value1">Catering</option>
@@ -56,17 +64,17 @@
                     <input type="checkbox" id="F" name="F">F</input>
                 </p>
             </div>
-            <div style="text-align:center">
+            <div id="submit">
                 <p><input type="submit" id="SendRequest" value="Send Request"/>
             </p></div><hr/>
         </form>
     </body>
     <footer>
         <div>
-            <p style="text-align: center">
+            <p>
                 321 Indigo Hills Blvd, Montana Beach, CA, 42910
             </p>
-            <p style="text-align:center">
+            <p>
                 987-654-3210
             </p>
         </div>

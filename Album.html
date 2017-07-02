@@ -3,15 +3,17 @@
     <head>
         <title>Album-Fly Away</title>
         <style>
-            table {
-                border-collapse: collapse;
-            } th, td {
-                border: 1px solid black;
+            #paragraph{
+                border: 1px black solid
             }
         </style>
+        <link href="albumStyles.css"
+        rel="Album Style Sheet"
+        type="text/css"/> 
     </head>
-        <body>
-            <div style="text-align: center">
+    <body>
+            <div id="paragraph"
+            style="text-align: center">
                     <img src="images/Swan.jpg" 
                     style="width:30%;"
                     alt="Swans" /> 
@@ -20,10 +22,10 @@
                     <h3>September 23rd, 2017</h3>
                
             </div>
-            <hr/>
-            <div>
+            <div class="band" 
+                id="paragraph">
                 <h2 style="text-align:center;">Band Members and Producers</h2>
-                <p>
+                <p class="band">
                    <ul>
                        <li> Timothy Thomas - Lead vocals</li>
                        <li>Steven Songster - Guitar</li>
@@ -33,6 +35,8 @@
                         <li>Nathan Klein - Producer</li>
                    </ul>    
                 </p>
+            </div>
+            <div>
                 <table border="1" width="100%"
                 style="text-align:center;">
                     <caption>Tracks</caption>
@@ -62,5 +66,5 @@
                     </tbody>
                 </table>
             </div>    
-        </body>    
+    </body>    
 </html>

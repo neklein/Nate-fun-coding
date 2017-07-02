@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    .warning {
+  font-weight: bold;
+  color: red;
+}
+    </style>
 <form action="Portfolio.html" method="POST">
     Text Input: <input type="text" name="myTextInput" /><br/>
     Radio Buttons: <br/>
@@ -12,3 +20,13 @@
     <option value="Value2">Display Text 2</option>
     <option value="Value3">Display Text 3</option>
 </select>
+<div class="warning">
+  The following errors occured:
+</div>
+<p class="warning">First Name is required.</p>
+<label for="firstName">First Name</label>
+<input type="textbox" name="firstName"/>
+<p style="color:red;font-weight:bold;">
+  These fields are required.
+</p>
+</html>

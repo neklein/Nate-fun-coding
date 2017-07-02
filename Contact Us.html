@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            form div label {
+                display:block;
+                float:left;
+                width:250px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <div><p>
+                <label id="FirstNameLabel" for="FirstName">First Name: </label>
+                <input id="FirstName" name="FirstName" type="text"/></p>
+            </div>
+            <div><p>
+                <label id="LastNameLabel" for="LastName">Last Name: </label>
+                <input id="LastName" name="LastName" type="text"/></p>
+            </div>
+            <div><p>
+                <label id="EmailLabel" for="Email">Email: </label>
+                <input id="Email" name="Email" type="text"/></p>
+            </div>
+            <div><p>
+                <label id="TypeofLicenseLabel" for="TypeofLicense">Type of License: </label>
+                <input type="radio" name="Type" value="Business" checked/> Business
+                <input type="radio" name="Type" value="Personal"/> Personal</p>
+            </div>
+            <div><p>
+                <label id="ReasonLabel" for="Reason">Reason: </label>
+                <select name="Reason">
+                    <option value="Value1">Select a Reason</option>
+                    <option value="Value2">Software Support</option>
+                    <option value="Value3">Hardware Support</option>
+                    <option value="Value4">Information Request</option>
+                </select></p>
+            </div>
+            <div><p>
+                <label id="AdditionalInformationLabel" for="AdditionalInformation">Additional Information: </label>
+                <textarea id="AdditionalInformation" name="AdditionalInformation"></textarea></p>
+            </div>
+            <div>
+                <p><input type="checkbox" id="ReadTermsofService" name="ReadTermsofService">
+                <label id="ReadTermsofService" for="ReadTermsofService">I have read the terms of service.</label></input></p>
+            </div>
+            <div>
+                <input type="submit" id="submitbutton" value="Send Request"/>
+            </div>
+        </form>
+    </body>
+</html>

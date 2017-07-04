@@ -12,7 +12,7 @@ th, td {
             border: 1px solid black;
             }
 li {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid blue;
 }
 .band {
     font-weight: bold;
@@ -20,4 +20,11 @@ li {
 }
 p.band {
     border: 1px dashed blue;
+}
+#image {
+    background: url(images/Swan.jpg) no-repeat fixed top;
+    background-size: 400px,300px;  
+}
+ul {
+    font-style: italic;
 }

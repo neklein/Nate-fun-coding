@@ -11,3 +11,23 @@ footer {
    label {
        font-weight: bold;
    }
+ a {
+     font-weight: normal;
+     text-decoration: underline
+ } 
+   a:link {
+       color: blue
+   }
+   a:visited {
+    color: red
+   }
+a:hover {
+    font-weight: bold
+}
+a:active {
+    text-decoration: none;
+}
+th {
+    font-size: larger;
+    font-weight: bold;
+}

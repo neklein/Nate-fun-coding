@@ -1,0 +1,5 @@
+Total height = height+margin top+margin bottom+border top+border bottom+padding top+padding bottom = 150+20+20+1+1+10+10 = 212px
+Total width = width+margin right+margin left+border right+border left+padding right+padding left = 400+20+20+1+1+10+10 = 462px
+Browser calculated height = height+border top+border bottom+padding top+padding bottom = 150+1+1+10+10 = 172px
+Browser calculated width = width+border left+border right+padding left+padding right 
+= 400+1+1+10+10 = 422

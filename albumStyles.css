@@ -1,5 +1,5 @@
 
-table {
+table.album {
             border-collapse: collapse;
             border: 1;
             width:100%;
@@ -27,4 +27,14 @@ p.band {
 }
 ul {
     font-style: italic;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: grey;
+}
+td {
+    font-style: italic
 }

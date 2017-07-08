@@ -2,18 +2,27 @@
 <html>
     <head>
         <title>Album-Fly Away</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <style>
             #paragraph{
                 border: 1px black solid
+            }
+            #image {
+                background: url(images/Swan.jpg) no-repeat fixed top;
+                background-size: 400px,300px;
             }
         </style>
         <link href="albumStyles.css"
         rel="stylesheet"
         type="text/css"/> 
+        <link rel="stylesheet"
+        href="css/bootstrap.min.css"/>
+        <link rel="style sheet"
+        href="css/bootstrap-theme.min.css"/>
     </head>
     <body>
-            <div id="image">
-                <table class="image"></table>
+            <div class="text-center">
+                <img src="images/swan.jpg" class="img-circle" width="400" height="400"/>
             <div id="paragraph"
             style="text-align: center"> 
                     <h1>Fly Away</h1>
@@ -36,9 +45,9 @@
                    </ul>    
                 </p>
             </div>
-            <div>
+            <div class="table-responsive">
                 <p>
-                <table class="album">
+                <table class="table">
                     <caption>Tracks</caption>
                     <thead>
                         <tr>
@@ -48,7 +57,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="active">
                             <td>1</td>
                             <td>Swans-a-Swimming</td>
                             <td>4:43</td>                           
@@ -58,7 +67,7 @@
                             <td>The Art of Flight</td>
                             <td>3:37</td>                            
                         </tr>
-                        <tr>
+                        <tr class="active">
                             <td>3</td>
                             <td>To Soar or Not to Soar</td>
                             <td>5:34</td>

@@ -2,6 +2,12 @@
 <html>
     <head>
         <title>Restaurant Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet"
+        href="css/bootstrap.min.css"/>
+        <link rel="style sheet"
+        href="css/bootstrap-theme.min.css"/>
+        <link href="js/bootstrap.min.js" rel="style sheet"/>
         <style>
             form div label {
                 display:block;
@@ -18,11 +24,14 @@
     </head>
     <body>
         <header id="header">
-            <h1>Shoot the Breeze</h1><hr/>
-            <p><a href="RestaurantHome.html">Home</a>
-            <a href="RestaurantMenu.html">Menu</a>
-            <a href="RestaurantContact.html">Contact Us</a>
-            </p>
+        <h1>Shoot the Breeze</h1><hr/>
+        <div class="container">
+            <ul class="nav nav-tabs">
+        <li class="active"><a href="RestaurantHome.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li class="active"><a href="RestaurantMenu.html">Menu</a></li>
+        <li class="active"><a href="RestaurantContact.html">Contact Us</a></li>
+            </ul>
+        </div>
         </header>
         <form>
             <div><p>

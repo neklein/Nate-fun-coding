@@ -2,6 +2,12 @@
 <html>
     <head>
         <title>Restaurant Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet"
+        href="css/bootstrap.min.css"/>
+        <link rel="style sheet"
+        href="css/bootstrap-theme.min.css"/>
+        <link href="js/bootstrap.min.js" rel="style sheet"/>
         <style>
             div.centered table 
             {
@@ -16,90 +22,107 @@
     </head>
     <body style="background:chocolate">
         <header id="header">
-            <h1>Shoot the Breeze</h1>
-            <p><a href="RestaurantHome.html">Home</a>
-            <a href="RestaurantMenu.html">Menu</a>
-            <a href="RestaurantContact.html">Contact Us</a>
-            </p>
+        <h1>Shoot the Breeze</h1><hr/>
+        <div class="container">
+            <ul class="nav nav-tabs">
+        <li class="active"><a href="RestaurantHome.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li class="active"><a href="RestaurantMenu.html">Menu</a></li>
+        <li class="active"><a href="RestaurantContact.html">Contact Us</a></li>
+            </ul>
+        </div>
         </header>
-        <div class="centered">
-        <table>
-            <tr>
-                <th>Salmon ala Mode</th>
-                <th>Crab Cakes</th>
-                <th>Sea Bass</th>
-            </tr>
-            <tr>
-                <td>Ruler of the seafood family
-                    </td>
-                <td>Finely seasoned
-                    </td>
-                <td>Marinated in lemon juice
-                    </td>
-            </tr>
-            <tr>
-                <td>Enjoy with a baked potato</td>
-                <td>Enjoy with rice and fried tomatoes</td>
-                <td>Enjoy with capers and walnuts</td>
-            </tr>
-            <tr>
-                <td>$17.70</td>
-                <td>$15.65</td>
-                <td>$18.80</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Swordfish</th>
-                <th>Shark</th>
-                <th>Flounder</th>
-            </tr>
-            <tr>
-                <td>Duel with this delicious dish
-                    </td>
-                <td>Sharpen your teeth for this dish!!!
-                    
-                    </td>
-                <td>Succulent and tender, delicious!!!
-                   
-                    </td>
-            </tr>
-            <tr>
-                <td>Enjoy with onion rings</td>
-                <td>Enjoy with cheesy broccoli</td>
-                <td>Enjoy with baked apples</td>
-            </tr>
-            <tr>
-                <td>$15.45</td>
-                <td>$18.95</td>
-                <td>$16.50</td>
-            </tr>
-        </table>
-        </div><hr/>
-        <div class="centered">
-            <table>
-                <caption style="text-align:left;
-                font-weight:bold;
-                font-size:larger">Beverages</caption>
-                <tbody>
-                    <tr>
-                        <td>Root Beer</td>
-                        <td>$3.00</td>
-                    </tr>
-                    <tr>
-                        <td>Bottled Water</td>
-                        <td>$1.25</td>
-                    </tr>
-                    <tr>
-                        <td>Lemonade</td>
-                        <td>$1.00</td>
-                    </tr>
-                    <tr>
-                        <td>Iced Tea</td>
-                        <td>$1.25</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm-4">    
+                <b><div style="font-size:large">Salmon ala Mode</div></b><br/>
+                <p>
+                    Ruler of the seafood family<br/>
+                    Enjoy with a baked potato<br/>
+                    $17.70
+                </p>
+            </div>
+            <div class="col-sm-4">
+                 <b><div style="font-size:large">Crab Cakes</div></b><br/>
+                 <p>
+                     Finely seasoned<br/>
+                     Enjoy with rice and fried tomatoes<br/>
+                    $15.65
+                 </p>
+            </div>  
+            <div class="col-sm-4">  
+                 <b><div style="font-size:large">Sea Bass</div></b><br/>
+                 <p>
+                     Marinated in lemon juice<br/>
+                     Enjoy with capers and walnuts<br/>
+                     $18.80
+                 </p>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <b><div style="font-size:large">Swordfish</div></b><br/>
+                    <p>
+                        Duel with this delicious dish<br/>
+                        Enjoy with onion rings<br/>
+                        $15.45
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <b><div style="font-size:large">Shark</div></b><br/>
+                    <p>
+                    Sharpen your teeth for this dish<br/>
+                    Enjoy with cheesy broccoli<br/>
+                    $18.95
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                  <b><div style="font-size:large">Flounder</div></b><br/>
+                  <p>
+                      Succulent and tender, delicious!<br/>
+                      Enjoy with baked apples<br/>
+                      $16.50
+                    </p>  
+                </div>
+            </div><hr/>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <b><div style="font-size:large">Beverages</div></b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    Root Beer
+                </div>
+                <div class="col-sm-6">
+                    $1.50
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    Lemonade
+                </div>
+                <div class="col-sm-6">
+                    $1.00
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    Water
+                </div>
+                <div class="col-sm-6">
+                    $1.25
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    Iced Tea
+                </div>
+                <div class="col-sm-6">
+                    $1.00
+                </div>
+            </div>
         </div><hr/> 
     </body>
      <footer>

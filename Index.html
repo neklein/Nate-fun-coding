@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html>
-   <style>
-  a {
-    text-decoration: none;
-  }
-  
-  a: hover {
-    text-decoration: underline;
-  }
-  
-  .warning {
-    font-weight: bold;
-    color: red;
-  }
-  
-  div.warning {
-    font-style: italic;
-  }
-    </style>
-<form action="Portfolio.html" method="POST">
-    Text Input: <input type="text" name="myTextInput" /><br/>
-    Radio Buttons: <br/>
-    <input type="radio" name="answer" value="Yes" checked/>Yes<br/>
-    <input type="radio" name="answer" value="No"/>No<br/>
-    <input type="radio" name="answer" value="Maybe"/>Maybe<br/>
-    Password:<input type="password"/><br/> 
-    <input type="submit" value="Click Here"/><input type="reset"/><br/>
-</form>
-<select name="name of select element">
-    <option value="Value1">Display Text 1</option>
-    <option value="Value2">Display Text 2</option>
-    <option value="Value3">Display Text 3</option>
-</select>
-<div class="warning">
-  The following errors occured:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+ <noscript>This website runs best with Javascript enabled</noscript>
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <p>Test 1</p>
+      </div>
+
+      <div class="item">
+        <p>Test 2</p>
+      </div>
+    
+      <div class="item">
+        <p>Test 3</p>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
-<p class="warning">First Name is required.</p>
-<label for="firstName">First Name</label>
-<input type="textbox" name="firstName"/>
-<p style="color:red;font-weight:bold;">
-  These fields are required.
-</p>
+
+</body>
 </html>

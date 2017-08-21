@@ -4,16 +4,19 @@
 <head>
     <title>Simple onload Example with Function</title>
     <script type="text/javascript">
-      function greetTheUser() {
-        var userName = prompt("What is your name?");
-        document.getElementById("userName").innerText = 
-                                            userName;
-      }
+    
+     function getEvens() {for (var x = 0; x < 20; x++) {
+         if (x % 2 == 0){console.log(x)
+         }
+     }
+    
+         }
+          document.getElementById("y").innerText = y;
     </script>
 </head>
-<body onload="greetTheUser();">
+<body onload="getEvens()">
     <div>
-        <h1>Hi, <span id="userName"></span>!</h1>
+        <h1>Hi, <span id="y"></span>!</h1>
     </div>
 </body>
 </html>
